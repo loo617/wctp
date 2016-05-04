@@ -1,0 +1,60 @@
+/*调整排版的空行*/
+.b-30 {
+    height: 30px;
+}
+.b-50 {
+    height: 50px;
+}
+.b-70 {
+    height: 70px;
+}
+.b-100 {
+    height: 100px;
+}
+.img{
+    width: 30px;
+    height: 30px;
+}
+/*head*/
+.my_navbar{
+    color: #FFF;
+    background-color: #2E77BD;
+    border-bottom: 2px solid #1F5588;
+}
+.my_navbar .my_navbar-brand{
+    color: #FFFFFF;
+    font-size: large;
+}
+.my_navbar .my_navbar-nav > ul>li > a{
+    color: #FFFFFF;
+    font-size: large;
+}
+
+/*自定义body*/
+.body{
+    background-color: #eeeeee;
+}
+
+/*foot*/
+.footer{
+    margin-top: 50px;
+    margin-bottom: 0px;
+    background-color: #2E77BD;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.footer a{
+    color: aqua;
+    font-size: 16px;
+}
+.footer p{
+    padding: 12px 0px 0px 0px;
+}
+
+a.navleft:link {color: #000;} /* 未访问的链接 */
+a.navleft:visited {color: #0e11ff;} /* 已访问的链接 */
+a.navleft:hover{color: #ff2bf7;} /* 鼠标在链接上 */
+a.navleft:active {color: #ff1931;} /* 点击激活链接——在你点击该链接之后，页面正在转向新地址的时候，链接显示此颜色；当你已经到了要链接的页面，然后再返回，原页面上的此链接仍是此颜色 */
+a.navleft{
+    font-size: small;
+}

@@ -1,0 +1,43 @@
+.mycol-md-8{
+    float: right;
+    width: 66.66666667%;
+}
+.my_navbar{
+    color: #FFF;
+    background-color: #2E77BD;
+    border-bottom: 2px solid #1F5588;
+}
+.my_navbar .my_navbar-brand{
+    color: #FFFFFF;
+    font-size: large;
+}
+.my_navbar .my_navbar-nav > ul>li > a{
+    color: #FFFFFF;
+    font-size: large;
+}
+.footer{
+    /*height: 50px;*/
+    width: 100%;
+    background-color: #2E77BD;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.footer a{
+    color: aqua;
+    font-size: 16px;
+}
+.footer p{
+    padding: 12px 0px 0px 0px;
+}
+.my_footer{
+     background-color: #2E77BD;
+     color: #FFFFFF;
+     font-size: 16px;
+ }
+.my_footer a{
+    color: aqua;
+    font-size: 16px;
+}
+.my_footer p{
+    padding: 15px 200px 0px 200px;
+}
