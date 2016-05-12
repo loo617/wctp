@@ -47,24 +47,7 @@ session_destroy();
                 else if(!(/^\d{9}$/.test(numberid))){
                     $("#Numberid_tx").html("学号必须是九位数字！");
                     $("#uu").html("1");
-                }/*
-                else{
-                    $.ajax({
-                        type:'GET',
-                        url:"register_handle.php?act=check&number_id="+numberid,
-                        dataType:'jsonp',
-                        success:function(res){
-                            if(res.int == 0){
-                                $("#uu").html("1");
-                                $("#Numberid_tx").html("学号已经存在！");
-                            }else{
-                                $("#uu").html("2");
-                                $("#Numberid_tx").html("该学号可以使用");
-                            }
-                        }
-                    })
-                    $("#Numberid_tx").html("");
-                }*/
+                }
                 else{
                     $.get(url,function(str){
                         if(str == '1'){

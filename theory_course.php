@@ -87,7 +87,8 @@ require_once "connect.php";
             }else{
                 $sql="select * from course where course_type='1'";
             }
-            $query=mysql_query($sql);
+            $sql2="select * from course";
+            $query=mysql_query($sql2);
             while($row=mysql_fetch_array($query)) {
                 $course_id = $row["course_id"];
                 $course_name = $row["course_name"];
@@ -109,10 +110,7 @@ require_once "connect.php";
             ?>
 
             <ul class="pagination">
-                <li><a href="index.html">&laquo;</a></li>
-                <li><a href="index.html">1</a></li>
-                <li><a href="index.html">2</a></li>
-                <li><a href="index.html">&raquo;</a></li>
+                <li><a href="index.html"></a></li>
             </ul>
         </div>
 
